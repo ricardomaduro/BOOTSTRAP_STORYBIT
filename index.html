@@ -1,0 +1,424 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <meta name="description" content="Tell a story or read one!">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>STORYBIT</title>
+        <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+        <!-- Custom styles for this template -->
+        <link href="css/main.css" rel="stylesheet">
+        <link rel="stylesheet" href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css">
+        <link href="css/ekko-lightbox.css" rel="stylesheet">
+    </head>
+
+    <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+        <nav class="navbar navbar-custom navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">STORYBIT</a>
+                </div>
+                <div id="navbar" class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="hidden">
+                            <a href="#page-top"></a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#why">WHY</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#stories">STORIES</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#characters">CHARACTERS</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#contact">Contact</a>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle login-color" href="#" data-toggle="dropdown">Login <strong class="caret"></strong></a>
+                            <div class="dropdown-menu login-style">
+                                <!-- Login form here -->
+                                <form action="" method="" accept-charset="UTF-8">
+                                    <label>Username</label>
+                                    <input id="user_username" class="input-bottom" type="text" name="" size="40">
+                                    <label>Password</label>
+                                    <input id="user_password" class="input-bottom" type="password" name="" size="40">
+                                    <button class="btn btn-warning btn-style" type="button" name="commit" value="Login">Login</button>
+                                </form>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!--/.nav-collapse -->
+            </div>
+        </nav>
+        <section class="intro">
+            <div class="intro-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">
+                            <h1 class="brand-color brand-heading text-warning">STORYBIT</h1>
+                            <p class="intro-text text-center">The place where your imagination becomes real</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="content-section marketing" id="why">
+            <div class="text-center title-bar">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>Why we do this?</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <p class="lead text-center">
+                    <br>
+                    <br>We are just the place to read, create and share sketched stories
+                    <br>
+                    <br>You can draw, you can upload, you can read your and the public stories,
+                    you can record your audio stories...
+                    <br>
+                    <br>
+                </p>
+                <br>
+                <div class="row">
+                    <div class="col-md-4 bottom-space">
+                        <i class="fa fa-5x fa-border fa-pencil"></i>
+                        <h2>Draw &amp; upload</h2>
+                        <p class="text-center">Draw online or upload stories.
+                            <br>Create characters to use on stories.</p>
+                        
+                    </div>
+                    <div class="col-md-4 bottom-space">
+                        <i class="fa fa-5x fa-border fa-users"></i>
+                        <h2>Social share</h2>
+                        <p class="text-center">Make your stories or your characters public.</p>
+                        
+                    </div>
+                    <div class="col-md-4">
+                        <i class="fa fa-5x fa-border fa-microphone"></i>
+                        <h2>Speak &amp; record audio</h2>
+                        <p class="text-center">Use your voice to tell a story.</p>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <section id="stories" class="content-section text-center">
+            <div class="text-center title-bar">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>Stories</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="story-container">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 search-form-bottom">
+                            <div class="input-group">
+                                <span class="input-group-addon" id="basic-addon1">
+                                    <i class="glyphicon glyphicon-search"></i>
+                                </span>
+                                <input type="text" class="form-control col-lg-8 search-form" placeholder="Search">
+                            </div>
+                        </div>
+                        <div class="col-md-8 text-left">
+                          <a class="btn btn-default" href="#stories" role="button">Create story</a>
+                        </div>
+                        <br>
+                        <br>
+                        <div class="col-md-12">
+                            <table id="sort-table" class="table table-striped tablesorter">
+                                <thead>
+                                    <tr>
+                                        <th class="warning text-center">Id
+                                            <i class="glyphicon glyphicon-chevron-down"></i>
+                                        </th>
+                                        <th class="warning text-center">Story
+                                            <i class="glyphicon glyphicon-chevron-down"></i>
+                                        </th>
+                                        <th class="warning text-center">Author
+                                            <i class="glyphicon glyphicon-chevron-down"></i>
+                                        </th>
+                                        <th class="warning text-center">Days ago
+                                            <i class="glyphicon glyphicon-chevron-down"></i>
+                                        </th>
+                                        <th class="warning text-center">Read</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Wind &amp; rain</td>
+                                        <td>Otto</td>
+                                        <td>1</td>
+                                        <td>
+                                            <button class="btn btn-sm btn-default">Read</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Grass</td>
+                                        <td>Thornton</td>
+                                        <td>3</td>
+                                        <td>
+                                            <button class="btn btn-sm btn-default">Read</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Gustav</td>
+                                        <td>Bird</td>
+                                        <td>4</td>
+                                        <td>
+                                            <button class="btn btn-sm btn-default">Read</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>Chocolate and milk</td>
+                                        <td>Hector Smith</td>
+                                        <td>2</td>
+                                        <td>
+                                            <button class="btn btn-sm btn-default">Read</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>Vikings</td>
+                                        <td>Lothbrok</td>
+                                        <td>10</td>
+                                        <td>
+                                            <button class="btn btn-sm btn-default">Read</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>Dogs and Cats</td>
+                                        <td>Lemmann</td>
+                                        <td>4</td>
+                                        <td>
+                                            <button class="btn btn-sm btn-default">Read</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>Sunny california</td>
+                                        <td>Manny Filip</td>
+                                        <td>4</td>
+                                        <td>
+                                            <button class="btn btn-sm btn-default">Read</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>Vampires</td>
+                                        <td>Kelly</td>
+                                        <td>4</td>
+                                        <td>
+                                            <button class="btn btn-sm btn-default">Read</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>9</td>
+                                        <td>After hours</td>
+                                        <td>Anna</td>
+                                        <td>4</td>
+                                        <td>
+                                            <button class="btn btn-sm btn-default">Read</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>10</td>
+                                        <td>Dalmatians</td>
+                                        <td>Cruella</td>
+                                        <td>4</td>
+                                        <td>
+                                            <button class="btn btn-sm btn-default">Read</button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <nav>
+                                <ul class="pagination">
+                                    <li>
+                                        <a href="#stories" aria-label="Previous">
+                    <span aria-hidden="true">«</span>
+                  </a>
+                                    </li>
+                                    <li>
+                                        <a href="#stories">1</a>
+                                    </li>
+                                    <li>
+                                        <a href="#stories">2</a>
+                                    </li>
+                                    <li>
+                                        <a href="#stories">3</a>
+                                    </li>
+                                    <li>
+                                        <a href="#stories" aria-label="Next">
+                    <span aria-hidden="true">»</span>
+                  </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section></section>
+        
+        <section id="characters" class="content-section">
+            <div class="text-center title-bar">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>Characters</h2>
+                    </div>
+                </div>
+            </div>
+            
+        
+        <div class="section"> 
+          <div class="container"> 
+            <div class="row text-center bottom-space">
+              <a class="btn btn-default " href="#characters" role="button">Create character</a>
+            </div>
+            <div class="row"> 
+              <div class="col-md-3 bottom-space text-center"> 
+                  <img src="img/mickey.png" class="img-responsive img-size center-block"> <h2>Mickey<br></h2> <p>This is Mickey...</p>
+                  <a class="btn btn-default">See Mickey stories</a>
+              </div>
+
+              <div class="col-md-3 bottom-space text-center"> <img src="img/homer.jpeg" class="img-responsive img-size center-block"> <h2>homer</h2> <p>This is Homer...</p>
+                <a class="btn btn-default">See Homer stories</a>
+              </div>
+
+              <div class="col-md-3 bottom-space text-center"> <img src="img/wally.png" class="img-responsive img-size center-block"> <h2>wally</h2> <p>This is Wally...<br></p>
+                <a class="btn btn-default">See Wally stories</a>
+              </div>
+
+              <div class="col-md-3 text-center"> <img src="img/tom.jpeg" class="img-responsive img-size center-block"> <h2>tom</h2> <p>This is Tom...</p>
+                <a class="btn btn-default">See Tom stories</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 text-center"><nav>
+                                <ul class="pagination">
+                                    <li>
+                                        <a href="#characters" aria-label="Previous">
+                    <span aria-hidden="true">«</span>
+                  </a>
+                                    </li>
+                                    <li>
+                                        <a href="#characters">1</a>
+                                    </li>
+                                    <li>
+                                        <a href="#characters">2</a>
+                                    </li>
+                                    <li>
+                                        <a href="#characters">3</a>
+                                    </li>
+                                    <li>
+                                        <a href="#characters" aria-label="Next">
+                    <span aria-hidden="true">»</span>
+                  </a>
+                                    </li>
+                                </ul>
+                            </nav></div></div></div></div>
+        </section>
+
+        <section id="contact">
+            <div class="text-center title-bar">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>Contact Us</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <form>
+                            <div class="form-group">
+                                <label>Name</label>
+                                <input type="text" class="form-control" placeholder="Enter Name">
+                            </div>
+                            <div class="form-group">
+                                <label>Company Name</label>
+                                <input type="text" class="form-control" placeholder="Enter Company Name">
+                            </div>
+                            <div class="form-group">
+                                <label>Email address</label>
+                                <input type="email" class="form-control" placeholder="Enter Email">
+                            </div>
+                            <div class="form-group">
+                                <label>Message</label>
+                                <textarea class="form-control" placeholder="Enter Message"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-default">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p>STORYBIT © 2016, All Rights Reserved</p>
+        </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/jquery.tablesorter.js"></script>
+
+        
+        <script>
+            $(function(){
+                              $('#sort-table').tablesorter({
+                                sortList:[[0,0], [1,0]]
+                              });
+                            });
+        </script>
+        <script>
+            var $rows = $('table tr');
+                              $('.search-form').keyup(function() {
+                                var val = $.trim($(this).val()).replace(/ +/g, ' ').toLowerCase();
+                                $rows.show().filter(function() {
+                                  var text = $(this).text().replace(/\s+/g, ' ').toLowerCase();
+                                  return !~text.indexOf(val);
+                                }).hide();
+                              });
+        </script>
+        <script>
+            $(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+                event.preventDefault();
+                $(this).ekkoLightbox();
+              }); 
+              
+              $(function () {
+                $('[data-hover="tooltip"]').tooltip()
+              })
+        </script>
+    
+
+</body></html>
