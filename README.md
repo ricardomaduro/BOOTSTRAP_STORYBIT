@@ -1,2 +1,7 @@
 # BOOTSTRAP_STORYBIT
-Bootstrap responsive site with tablesorter, search and scroll efects
+
+Front-end development. Back-end not implemented.
+
+Bootstrap responsive site with tablesorter javascript, search inside a table, and scroll efects to navigate inside site
+
+Pingendo was also used to set some details.
